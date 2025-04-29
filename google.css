@@ -53,11 +53,11 @@ body {
 }
 
 #main {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 #logo {
-    font-size: 5rem; /* Increased size for the Google logo */
+    font-size: 6rem; /* Increased size for the Google logo */
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -74,14 +74,46 @@ body {
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    color: #5f6368;
+    font-size: 1.2rem;
 }
 
 .search-box-inner {
     flex: 1;
     border: none;
     font-size: 1rem;
-    padding: 10px;
+    padding: 10px 40px; /* Added padding to account for icons */
     outline: none;
+}
+
+.mic-icon {
+    position: absolute;
+    right: 50px; /* Adjusted to make space for the camera icon */
+    color: #5f6368;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.mic-icon:hover {
+    color: #4285f4;
+}
+
+.camera-icon {
+    position: absolute;
+    right: 15px;
+    color: #5f6368;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.camera-icon:hover {
+    color: #4285f4;
 }
 
 #button-container {
@@ -121,6 +153,21 @@ body {
 
 .god img:hover {
     transform: scale(1.1);
+}
+
+#info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #5f6368;
+}
+
+#info a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+#info a:hover {
+    text-decoration: underline;
 }
 
 footer {
