@@ -17,3 +17,13 @@ document.getElementById('googly-link').addEventListener('click', function (event
     event.preventDefault(); // Prevent default link behavior
     window.location.href = 'https://www.google.com/search?q=first-ever+women%27s+ODI+World+Cup';
 });
+
+// Add functionality to the language links
+const languageLinks = document.querySelectorAll('.language-link');
+languageLinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        const lang = this.getAttribute('data-lang');
+        window.location.href = `https://www.google.com/?hl=${lang}`;
+    });
+});
