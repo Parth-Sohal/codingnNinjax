@@ -1,4 +1,4 @@
 # Fee-Project-SCM-5-
 Google Clone
 <br>
-Parth Sohal <br> Nipun Panwar <br> Reetik <br> Naman <br> Navdeesh Don
+Parth Sohal <br> Nipun Panwar <br> Reetik <br> Naman <br> Navdeesh
