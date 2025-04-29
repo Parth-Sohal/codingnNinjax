@@ -51,6 +51,12 @@ body{
 }
 /* ------------------------------------------------- for mobiles -------------------------------------------------------------------- */
 @media(max-width: 900px){
+	.nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     /* ---------------------------------- NAV BAR ---------------------------- */
     .nav-bar{
         display: flex;
