@@ -27,3 +27,16 @@ languageLinks.forEach(link => {
         window.location.href = `https://www.google.com/?hl=${lang}`;
     });
 });
+
+const appsIcon = document.querySelector('.apps-icon');
+const appsDropdown = document.querySelector('.apps-dropdown');
+
+appsIcon.addEventListener('click', () => {
+    appsDropdown.style.display = appsDropdown.style.display === 'block' ? 'none' : 'block';
+});
+
+document.addEventListener('click', (event) => {
+    if (!appsIcon.contains(event.target) && !appsDropdown.contains(event.target)) {
+        appsDropdown.style.display = 'none';
+    }
+});
