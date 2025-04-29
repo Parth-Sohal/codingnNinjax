@@ -40,15 +40,28 @@ body {
     text-decoration: underline;
 }
 
+.header-right .sign-in {
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.header-right .sign-in:hover {
+    background-color: #357ae8;
+}
+
 #main {
     margin-top: 150px;
 }
 
 #logo {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #4285f4;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 #search-box-outer {
@@ -114,6 +127,9 @@ footer {
     background-color: #f8f9fa;
     color: #5f6368;
     font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-links a {
