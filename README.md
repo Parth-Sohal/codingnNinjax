@@ -16,4 +16,18 @@ Features
 - Responsive Design: Adapts to different screen sizes.
 - Basic JavaScript Logic: Handles user input and redirects searches.
 
+Instant Search Suggestions: Displays relevant suggestions as the user types.
+Got it! Here's an improved README.md file with the feature included:
+
+Features
+- Search Bar: Users can input search queries.
+- Google Search Button: Redirects users to Google’s search results.
+- I'm Feeling Lucky Button: Redirects to a surprise website.
+- Instant Search Suggestions: Displays relevant suggestions as the user types.
+- Responsive Design: Adapts to various screen sizes for better usability.
+
+Technologies Used
+- HTML: Structuring the webpage.
+- CSS: Styling to resemble Google’s interface.
+- JavaScript: Provides interactivity, handles search logic, and displays suggestions.
 
